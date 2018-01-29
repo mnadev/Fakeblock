@@ -1,0 +1,16 @@
+{
+  "name": "Fakeblock",
+
+  "description": "An extension that blocks certain websites when you turn it on.",
+
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking"
+  ],
+  "manifest_version": 2,
+  "version": "1"
+}
